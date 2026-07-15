@@ -105,7 +105,9 @@ const SideNav = () => {
           onClick={() => setOpen((o) => !o)}
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
-          className="fixed top-5 right-5 z-60 text-[0.6rem] tracking-[0.3em] uppercase text-(--ink) mix-blend-difference"
+          className={`fixed top-5 right-5 z-60 text-[0.6rem] tracking-[0.3em] uppercase transition-colors duration-300 ${
+            open ? "text-(--paper)" : "text-(--ink)"
+          }`}
         >
           {open ? "Close" : "Menu"}
         </button>

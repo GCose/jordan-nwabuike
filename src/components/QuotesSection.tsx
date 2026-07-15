@@ -91,7 +91,7 @@ const QuotesSection = forwardRef<HTMLElement, PortfolioSectionProps>(
         {QUOTES.map((quote) => (
           <blockquote
             key={quote.n}
-            className={`relative min-h-[80vh] flex flex-col justify-center gap-6 ${quote.align}`}
+            className={`relative min-h-[55vh] md:min-h-[80vh] flex flex-col justify-center gap-6 ${quote.align}`}
           >
             <span className="quote-meta invisible font-title text-[clamp(1.25rem,2vw,2rem)] text-(--accent)">
               {quote.n}

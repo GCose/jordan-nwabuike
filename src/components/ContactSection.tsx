@@ -77,7 +77,7 @@ const ContactSection = forwardRef<HTMLElement, PortfolioSectionProps>(
           </div>
         </div>
 
-        <div className="min-h-[70vh] flex flex-col justify-center py-[clamp(3rem,8vh,6rem)]">
+        <div className="min-h-[50vh] md:min-h-[70vh] flex flex-col justify-center py-[clamp(3rem,8vh,6rem)]">
           <h2 className="font-title text-[clamp(3.5rem,12vw,14rem)] leading-[0.95] tracking-[0.01em]">
             <span className="block overflow-hidden">
               <span className="contact-line block">Let&apos;s build</span>

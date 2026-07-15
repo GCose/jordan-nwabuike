@@ -103,7 +103,7 @@ const AboutSection = forwardRef<HTMLElement, PortfolioSectionProps>(
             scrollTrigger: {
               trigger: titleRef.current,
               start: "top top",
-              end: "+=120%",
+              end: () => (window.innerWidth < 768 ? "+=70%" : "+=120%"),
               pin: true,
               scrub: 1,
             },
@@ -139,7 +139,8 @@ const AboutSection = forwardRef<HTMLElement, PortfolioSectionProps>(
           scrollTrigger: {
             trigger: stageRef.current,
             start: "top top",
-            end: () => `+=${(CARDS.length + 0.5) * 100}%`,
+            end: () =>
+              `+=${(CARDS.length + 0.5) * (window.innerWidth < 768 ? 70 : 100)}%`,
             pin: true,
             scrub: 1,
           },
