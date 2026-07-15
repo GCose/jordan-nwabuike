@@ -1,26 +1,89 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #0b0d12;
+  --ink: #e8ebf2;
+  --accent: #4a7dff;
+
+  --font-title: "Bebas Neue", sans-serif;
+  --font-body: "Satoshi", sans-serif;
+
+  --nav-width: 5rem;
+  --max-w: 220rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root[data-theme="light"] {
+  --paper: #eef1f6;
+  --ink: #0f1115;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (min-width: 768px) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --nav-width: 6rem;
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition:
+    background-color 0.6s ease,
+    color 0.6s ease;
+}
+
+.font-title {
+  font-family: var(--font-title);
+}
+
+:root[data-theme="light"] .theme-light,
+:root[data-theme="dark"] .theme-dark {
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .theme-light-inverse,
+:root[data-theme="dark"] .theme-dark-inverse {
+  color: var(--paper);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10rem;
+  background: var(--accent);
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
 }
