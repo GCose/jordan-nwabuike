@@ -291,7 +291,7 @@ const AboutSection = forwardRef<HTMLElement, PortfolioSectionProps>(
               "TRYGG BACKEND",
               "EASY FINANCIAL",
               "MODEM PAY MERCHANT MOBILE",
-              "MODEM PAY MERCHANT ADMIN",
+              "MODEM PAY ADMIN",
             ]}
           />
         </div>
