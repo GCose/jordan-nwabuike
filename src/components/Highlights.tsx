@@ -60,7 +60,7 @@ const CHAPTERS: Chapter[] = [
       },
       {
         src: "/images/portfolio/itca-week-hall.jpg",
-        caption: "UTG, full house",
+        caption: "Presenting Cribio at the ITCA Week",
         alt: "The hall at UTG ITCA Week",
         ratio: "4 / 3",
       },
