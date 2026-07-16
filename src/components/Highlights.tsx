@@ -111,7 +111,7 @@ const CHAPTERS: Chapter[] = [
     images: [
       {
         src: "/images/portfolio/nasa-space-apps-lanyard.jpg",
-        caption: "Game day credentials",
+        caption: "Ready to win!",
         alt: "Jordan looking down at his NASA Space Apps badge",
       },
       {
