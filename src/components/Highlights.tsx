@@ -72,7 +72,7 @@ const CHAPTERS: Chapter[] = [
     images: [
       {
         src: "/images/portfolio/floral-shirt-whiteboard.jpg",
-        caption: "Data Communication Presentation",
+        caption: "Data Communications Presentation",
         alt: "Jordan presenting beside a whiteboard",
       },
       {
