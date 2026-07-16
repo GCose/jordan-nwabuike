@@ -166,7 +166,7 @@ const CHAPTERS: Chapter[] = [
       },
       {
         src: "/images/portfolio/grey-suit-desk-gesture.jpg",
-        caption: "Explaining the architecture",
+        caption: "Committed to the vision.",
         alt: "Jordan in a grey suit gesturing at his desk",
       },
       {
