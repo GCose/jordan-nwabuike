@@ -97,29 +97,29 @@ const HeroSection = forwardRef<HTMLElement, PortfolioSectionProps>(
           className="pointer-events-none absolute inset-0 z-0 h-full w-full"
         >
           <polyline
-            ref={trailRef}
             fill="none"
-            className="stroke-(--ink)"
-            strokeOpacity="0.45"
+            ref={trailRef}
             strokeWidth="5"
+            strokeOpacity="0.45"
             strokeLinecap="round"
             strokeLinejoin="round"
+            className="stroke-(--ink)"
           />
         </svg>
 
-        <div className="hero-meta invisible absolute bottom-0 right-0 md:right-[6%] h-[62vh] md:h-[80vh] z-0 aspect-2/3">
+        <div className="hero-meta invisible absolute bottom-0 right-0 md:right-[6%] h-[72vh] md:h-[85vh] z-0 aspect-2/3">
           <Image
             fill
             priority
-            src="/images/portfolio/jordan-hero-2.png"
-            alt=""
+            alt="Jordan Nwabuike Image"
+            src="/images/portfolio/hero.png"
             sizes="(min-width: 768px) 35vw, 70vw"
-            className="object-contain object-bottom opacity-40 md:opacity-20 grayscale transition-[filter] duration-700 hover:grayscale-0"
+            className="object-contain object-bottom opacity-40 grayscale transition-[filter] duration-700 hover:grayscale-0"
           />
         </div>
 
-        <div className="hero-meta invisible relative z-10 flex items-center justify-between border-t-2 border-(--ink)/70 pt-3 md:pt-4 text-[clamp(0.55rem,0.9vw,0.75rem)] tracking-[0.2em] sm:tracking-[0.25em] uppercase text-(--ink)/50">
-          <span>Portfolio — 2026</span>
+        <div className="hero-meta invisible relative z-10 flex items-center justify-between border-t-2 border-(--ink)/70 pt-3 pb-5 md:pt-4 text-[clamp(0.55rem,0.9vw,0.75rem)] tracking-[0.2em] sm:tracking-[0.25em] uppercase text-(--ink)/50">
+          <span> 2026</span>
           <span className="flex items-center gap-2">
             <span className="h-1.5 w-1.5 rounded-full bg-(--accent)" />
             Available for work
@@ -151,7 +151,9 @@ const HeroSection = forwardRef<HTMLElement, PortfolioSectionProps>(
             <div className="hero-meta invisible pointer-events-none absolute left-0 right-0 top-1/2 -translate-y-1/2 flex items-center gap-4 text-[clamp(0.55rem,0.9vw,0.75rem)] tracking-[0.2em] sm:tracking-[0.25em] uppercase text-(--ink)/40">
               <span className="whitespace-nowrap">Relentless builder</span>
               <span className="h-px flex-1 bg-(--ink)/20" />
-              <span className="whitespace-nowrap">Founder of Jordan In Tech</span>
+              <span className="whitespace-nowrap">
+                Founder of Jordan In Tech
+              </span>
             </div>
           </div>
 

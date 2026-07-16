@@ -78,7 +78,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
       >
         <div className="loader-meta flex items-center justify-between border-t-2 border-(--ink)/70 pt-3 text-[clamp(0.55rem,0.9vw,0.75rem)] tracking-[0.2em] sm:tracking-[0.25em] uppercase text-(--ink)/50">
           <span>Jordan Nwabuike</span>
-          <span>Portfolio — 2026</span>
+          <span>Year 2026</span>
         </div>
 
         <div className="loader-meta pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
@@ -91,7 +91,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
         <div className="loader-meta relative flex items-end justify-between border-b-2 border-(--ink)/15 pb-2">
           <span className="loader-bar absolute -bottom-0.5 left-0 h-0.5 w-full origin-left scale-x-0 bg-(--accent)" />
           <span className="pb-4 text-[clamp(0.55rem,0.9vw,0.75rem)] tracking-[0.2em] sm:tracking-[0.25em] uppercase text-(--ink)/40">
-            Banjul · The Gambia
+            Loading...
           </span>
           <span className="font-title leading-[0.8] text-[clamp(6rem,22vw,24rem)] text-(--ink)">
             <span ref={counterRef}>0</span>

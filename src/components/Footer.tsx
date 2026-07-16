@@ -27,7 +27,7 @@ const Footer = () => {
   return (
     <footer
       ref={rootRef}
-      className="@container relative overflow-hidden px-4 sm:px-6 md:px-12 pt-[clamp(3rem,8vh,6rem)]"
+      className="@container relative overflow-hidden px-4 sm:px-6 md:px-12 pt-2"
     >
       <div
         aria-hidden="true"

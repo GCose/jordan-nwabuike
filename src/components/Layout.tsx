@@ -65,10 +65,10 @@ const Layout = ({ children }: LayoutProps) => {
             "@type": "CollegeOrUniversity",
             name: "University of The Gambia",
           },
-          { "@type": "Organization", name: "Kashma" },
-          { "@type": "Organization", name: "InsistGlobal" },
+          { "@type": "Organization", name: "Cayor (Kashma)" },
+          { "@type": "Organization", name: "INSIST GLOBAL" },
           { "@type": "Organization", name: "NextGen Software" },
-          { "@type": "Organization", name: "ModemPay" },
+          { "@type": "Organization", name: "Modem Pay" },
         ],
         memberOf: {
           "@type": "Organization",
@@ -128,7 +128,12 @@ const Layout = ({ children }: LayoutProps) => {
 
         <link rel="canonical" href={url} />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512" />
+        <link
+          rel="icon"
+          href="/icon-512.png"
+          type="image/png"
+          sizes="512x512"
+        />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
         <meta property="og:title" content={title} />

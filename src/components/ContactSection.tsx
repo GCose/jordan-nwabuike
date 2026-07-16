@@ -58,7 +58,7 @@ const ContactSection = forwardRef<HTMLElement, PortfolioSectionProps>(
           if (typeof ref === "function") ref(node);
           else if (ref) ref.current = node;
         }}
-        className="relative px-4 sm:px-6 md:px-12 pt-[clamp(5rem,15vh,10rem)]"
+        className="relative px-4 sm:px-6 md:px-12 pt-[clamp(5rem,25vh,30rem)]"
       >
         <div className="relative">
           <span

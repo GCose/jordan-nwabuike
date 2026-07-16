@@ -2,10 +2,10 @@ import { useRef } from "react";
 import Layout from "@/components/Layout";
 import Footer from "@/components/Footer";
 import SideNav from "@/components/SideNav";
+import GalleryWalk from "@/components/Highlights";
 import HeroSection from "@/components/HeroSection";
-import GalleryWalk from "@/components/GalleryWalk";
 import AboutSection from "@/components/AboutSection";
-import QuotesSection from "@/components/QuotesSection";
+import QuotesSection from "@/components/MantraSection";
 import ContactSection from "@/components/ContactSection";
 
 interface HomeProps {

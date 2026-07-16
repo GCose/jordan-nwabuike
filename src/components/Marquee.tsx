@@ -7,9 +7,9 @@ const Marquee = ({ items }: { items: string[] }) => {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.to(".marquee-row", {
-        xPercent: -50,
+        xPercent: -100,
         repeat: -1,
-        duration: 22,
+        duration: 40,
         ease: "none",
       });
     }, trackRef);
@@ -30,7 +30,9 @@ const Marquee = ({ items }: { items: string[] }) => {
                 className="font-title flex items-center text-[clamp(2rem,5vw,5rem)] leading-none tracking-[0.02em] text-(--ink)/85"
               >
                 {item}
-                <span className="mx-[clamp(1.5rem,4vw,4rem)] text-(--accent)">/</span>
+                <span className="mx-[clamp(1.5rem,4vw,4rem)] text-(--accent)">
+                  /
+                </span>
               </span>
             ))}
           </div>

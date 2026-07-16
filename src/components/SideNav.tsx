@@ -50,7 +50,7 @@ const SideNav = () => {
         aria-label="Primary"
         className="hidden md:block fixed left-0 top-0 z-50 h-screen pointer-events-none"
       >
-        <div className="relative h-full flex flex-col justify-between px-5 py-10">
+        <div className="relative h-full flex flex-col justify-between px-4 py-10">
           <button
             onClick={() => goTo("#hero")}
             className="pointer-events-auto self-start font-title text-3xl leading-none tracking-[0.2em] text-(--ink) hover:text-(--accent) transition-colors duration-300"
@@ -66,7 +66,7 @@ const SideNav = () => {
                   className="group pointer-events-auto flex w-fit items-baseline gap-2.5"
                 >
                   <span
-                    className={`cursor-pointer font-title text-xl leading-none tracking-[0.12em] transition-colors duration-300 group-hover:text-(--ink) ${
+                    className={`cursor-pointer font-title text-base leading-none tracking-[0.12em] transition-colors duration-300 group-hover:text-(--ink) ${
                       active === link.target
                         ? "text-(--accent)"
                         : "text-(--ink)/70"

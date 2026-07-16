@@ -11,32 +11,32 @@ const CARDS = [
   {
     n: "01",
     label: "Where it started",
-    bg: "#dfe6f0",
+    bg: "#e8e3d9",
     heading: "First year, second semester. 2023.",
-    body: "The University of The Gambia. I took my first internship at Kashma, the place where building stopped being theory and started being real.",
-    image: "/images/portfolio/corridor-flat-cap.jpg",
+    body: "The University of The Gambia. I took my first internship at Cayor (Kashma), the place where building stopped being theory and started being real.",
+    image: "/images/portfolio/first-year.jpeg",
     focus: "50% 30%",
-    tags: ["Kashma", "UTG"],
+    tags: ["Cayor (Kashma)", "UTG"],
   },
   {
     n: "02",
     label: "Twice over",
-    bg: "#e8e3d9",
-    heading: "Then a second internship, at InsistGlobal.",
+    bg: "#dfe6f0",
+    heading: "Then a second internship, at INSIST GLOBAL.",
     body: "One internship was never going to be enough. I wanted more reps, more systems, more problems that actually mattered. I have not stopped building since.",
-    image: "/images/portfolio/desk-casual-portrait.jpg",
+    image: "/images/portfolio/second-year.jpeg",
     focus: "50% 35%",
-    tags: ["InsistGlobal"],
+    tags: ["INSIST GLOBAL", "UTG"],
   },
   {
     n: "03",
-    label: "Leading at UTG",
+    label: "Lead at UTG",
     bg: "#dbe7e0",
-    heading: "Software Team Lead, ITCA Software Club.",
+    heading: "Software Team Lead, ITCA Software Club of The UTG.",
     body: "We shipped real things for the school, not exercises. The ITCA Hub and the SoSHSA platform, both built on backends I owned end to end.",
     image: "/images/portfolio/floral-shirt-teaching.jpg",
     focus: "50% 30%",
-    tags: ["ITCA Hub", "SoSHSA"],
+    tags: ["ITCA Hub", "SoSHSA", "UTG"],
   },
   {
     n: "04",
@@ -53,40 +53,44 @@ const CARDS = [
     label: "Again",
     bg: "#ece0e4",
     heading: "Second place. MRCG AI Hackathon.",
-    body: "November 2025. Three days. The finals were announced at OIC, where I gave a speech in front of the room.",
+    body: "November 2025. Three days. The finals were announced at Sir Dawda Jawara International Conference Center, where I gave a speech in front of industry leaders and professionals.",
     image: "/images/portfolio/mrc-oic-speech.jpg",
     focus: "50% 30%",
-    tags: ["MRCG", "2nd Place", "OIC Speech"],
+    tags: [
+      "MRCG",
+      "2nd Place",
+      "Sir Dawda Jawara International Conference Center Speech",
+    ],
   },
   {
     n: "06",
     label: "Going pro",
     bg: "#e7e3d6",
-    heading: "NextGen Software. The Trygg backend.",
-    body: "My first software job. I built the backend for Trygg, a taxi platform, learning what it means to ship something people actually depend on.",
+    heading: "NextGen Agency. The Trygg backend.",
+    body: "My first software engineering job. I built the backend for Trygg singlehandedly, a taxi platform for a Sweedish company. I learnt what it means to ship something people actually depend on. I worked on a handful of other company projects too ranging from mobile to web applications.",
     image: "/images/portfolio/office-desk-monitor.jpg",
     focus: "50% 45%",
-    tags: ["NextGen", "Trygg"],
+    tags: ["NextGen Agency", "Trygg"],
   },
   {
     n: "07",
     label: "Real money",
     bg: "#dbe7e0",
-    heading: "ModemPay. No room to be wrong.",
-    body: "Then payment systems. I built the Easy mobile app and the Modempay admin app. Real money moving through real code.",
+    heading: "Modem Pay. No room to be wrong.",
+    body: "Then payment systems. I built the Easy mobile app, the Modem Pay merchant mobile app, the Modem Pay admin dashboard and contributed extensively to the payment processing systems of the Modem Pay infrastructure. Real money moving through real code.",
     image: "/images/portfolio/grey-suit-desk.jpg",
     focus: "50% 40%",
-    tags: ["ModemPay", "Easy", "Admin"],
+    tags: ["Modem Pay", "Easy Financial Services"],
   },
   {
     n: "08",
     label: "On my own terms",
     bg: "#dfe6f0",
     heading: "Then I started my own company.",
-    body: "Along the way I built Cribio and GamCraft on my own. After gathering experience from every side of the table, I founded Jordan In Tech. All of this before becoming a founder.",
+    body: "Along the way I built Cribio, GamCraft, KJ Retail, and more on my own. After gathering experience from every side of the table, I founded Jordan In Tech.",
     image: "/images/portfolio/office-feet-up-smile.jpg",
     focus: "60% 40%",
-    tags: ["Cribio", "GamCraft", "Jordan In Tech"],
+    tags: ["Cribio", "GamCraft", "KJ Retail", "Jordan In Tech"],
   },
 ];
 
@@ -197,7 +201,7 @@ const AboutSection = forwardRef<HTMLElement, PortfolioSectionProps>(
                 My Story
               </span>
             </div>
-            <h2 className="font-title relative mt-[clamp(1.5rem,4vh,3rem)] text-[clamp(2.5rem,7vw,8.5rem)] leading-[1.05] tracking-[0.01em]">
+            <h2 className="font-title relative mt-[clamp(1.5rem,4vh,3rem)] text-[clamp(2.5rem,7vw,8.5rem)] leading-[1.35] tracking-[0.01em]">
               <span className="block overflow-hidden">
                 <span className="title-line block">
                   From a campus internship
@@ -209,14 +213,14 @@ const AboutSection = forwardRef<HTMLElement, PortfolioSectionProps>(
                 </span>
               </span>
               <span className="block overflow-hidden md:pl-[24%]">
-                <span className="title-line block">in three years.</span>
+                <span className="title-line block">in four years.</span>
               </span>
             </h2>
           </div>
         </div>
 
-        <div className="h-[55vh] flex flex-col justify-center px-4 sm:px-6 md:px-12">
-          <h3 className="font-title text-[clamp(2.5rem,9vw,11rem)] leading-[1.02] tracking-[0.01em]">
+        <div className="h-[65vh] flex flex-col justify-center px-4 sm:px-6 md:px-12">
+          <h3 className="font-title text-[clamp(2.5rem,9vw,11rem)] leading-[1.35] tracking-[0.01em]">
             <span className="block overflow-hidden">
               <span className="cue-line block">Here&apos;s how</span>
             </span>
@@ -281,11 +285,13 @@ const AboutSection = forwardRef<HTMLElement, PortfolioSectionProps>(
             items={[
               "CRIBIO",
               "GAMCRAFT",
+              "KJ RETAIL",
               "ITCA HUB",
               "SOSHSA",
-              "TRYGG",
-              "EASY",
-              "MODEMPAY ADMIN",
+              "TRYGG BACKEND",
+              "EASY FINANCIAL",
+              "MODEM PAY MERCHANT MOBILE",
+              "MODEM PAY MERCHANT ADMIN",
             ]}
           />
         </div>
