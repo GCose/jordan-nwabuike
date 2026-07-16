@@ -67,7 +67,7 @@ const CARDS = [
     label: "Going pro",
     bg: "#e7e3d6",
     heading: "NextGen Agency. The Trygg backend.",
-    body: "My first software engineering job. I built the backend for Trygg singlehandedly, a taxi platform for a Sweedish company. I learnt what it means to ship something people actually depend on. I worked on a handful of other company projects too ranging from mobile to web applications.",
+    body: "My first software engineering job. I architected and built the backend for Trygg singlehandedly, a ride-hailing platform for a Swedish company. I learnt what it means to ship something people actually depend on. I worked on a handful of other company projects too ranging from mobile to web applications.",
     image: "/images/portfolio/office-desk-monitor.jpg",
     focus: "50% 45%",
     tags: ["NextGen Agency", "Trygg"],
